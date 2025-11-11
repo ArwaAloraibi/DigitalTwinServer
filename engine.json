@@ -1,0 +1,18 @@
+{
+  "@id": "dtmi:example:Engine;1",
+  "@type": "Interface",
+  "@displayName": "Engine",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "Energy",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "Temperature",
+      "schema": "double"
+    }
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
